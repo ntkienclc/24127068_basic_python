@@ -1,6 +1,7 @@
 #1
 print(f'Hello, world! My name is Nguyen Trung Kien')
 
+#---------
 #2
 name = input("Nhập tên: ")
 age = int(input("Nhập tuổi: "))
@@ -10,6 +11,7 @@ print(f'Tên của bạn {name}')
 print(f'Tuổi của bạn {age}')
 print(f'Chiều cao của bạn {height} m')
 
+#---------
 #3
 string = str(input("Nhập chuỗi: "))
 
@@ -18,12 +20,14 @@ print(f'Chuỗi in hoa: {string.upper()}')
 print(f'Chuỗi in thường: {string.lower()}')
 print(f'Chuỗi đảo ngược: {string[::-1]}')
 
+#---------
 #4
 s = "PythonProgramming"
 print(f'6 ký tự đầu tiên: {s[:6]}')
 print(f'8 ký tự cuối cùng: {s[-8:]}')
 print(f'Kết hợp 2 phần trên: {s[:6] + s[-8:]}')
 
+#---------
 #5
 # Khai báo danh sách các quốc gia
 countries = ['Vietnam','Laos','Myanmar','Thailand','Cambodia']
@@ -43,6 +47,7 @@ print(f'Danh sách sau khi thay thế: {countries}')
 del countries[0]
 print(f'Danh sách sau khi xóa quốc gia đầu tiên: {countries}')
 
+#---------
 #6
 
 # Tạo một tuple có 4 phần tử: tên, tuổi, nghề nghiệp, thành phố.
@@ -55,6 +60,7 @@ print(f'Tuổi: {age}')
 print(f'Nghề nghiệp: {occupation}')
 print(f'Thành phố: {city}')
 
+#---------
 #7
 number = [1, 2, 2, 3, 4, 4, 5]
 
@@ -62,6 +68,7 @@ set_number = set(number)
 
 print(set_number)
 
+#---------
 #8
 student = {
   "name": "An",
@@ -89,6 +96,7 @@ print(f'Thông tin sinh viên sau khi xóa chuyên ngành: {student}')
 #In cuối cùng
 print(f'Thông tin sinh viên cuối cùng: {student}')
 
+#---------
 #9
 #python 3.13.3
 
@@ -111,10 +119,14 @@ match n:
     case _:
         print('Số không (sử dụng match case)')
 
+#---------
 #10
-for i in range(10):
-    print(i+1)
+print("Các số chẵn là:")
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
 
+#---------
 #11
 n = int(input("Nhập n: "))
 i = 2
@@ -124,6 +136,7 @@ while(i <= n):
     i += 1
 print(f'Tổng S từ 1 đến {n} = {S}')
 
+#---------
 #12
 # Cho list: `[1,2,3,4,5,6,7,8,9,10]`.
 
@@ -133,11 +146,15 @@ original_list = [1,2,3,4,5,6,7,8,9,10]
 squared_evens = [x**2 for x in original_list if x % 2 == 0]
 print(squared_evens)
 
+#---------
 #13
 
+
+#---------
 #14
 
+#---------
 #15
 
+#---------
 #16
-
