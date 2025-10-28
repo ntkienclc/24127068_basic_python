@@ -1,6 +1,5 @@
 #1
-print(f'Hello, world! 
- My name is Nguyen Trung Kien')
+print(f'Hello, world! My name is Nguyen Trung Kien')
 
 #2
 name = input("Nhập tên: ")
